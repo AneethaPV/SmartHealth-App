@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditProfile"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_height="90px"
+            android:layout_width="150px"
+            android:id="@+id/text"
+            android:drawableLeft="@drawable/ic_baseline_person_outline_24"
+            android:textSize="50px"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="700px"
+            android:layout_height="150px"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_height="90px"
+            android:layout_width="150px"
+            android:id="@+id/text2"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:textSize="50px"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="700px"
+            android:layout_height="150px"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_height="90px"
+            android:layout_width="150px"
+            android:id="@+id/text3"
+            android:drawableLeft="@drawable/ic_baseline_phone_24"
+            android:textSize="50px"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="700px"
+            android:layout_height="150px"
+            android:ems="10"
+            android:hint="Mobile"
+            android:inputType="phone" />
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="150px"
+            android:layout_height="90px"
+            android:drawableLeft="@drawable/ic_baseline_attribution_24"
+            android:textSize="50px" />
+
+        <RadioGroup
+            android:layout_width="700px"
+            android:layout_height="90px"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/gender">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="280px"
+                android:layout_height="match_parent"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="350px"
+                android:layout_height="match_parent"
+                android:text="Female" />
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:gravity="center">
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:text="DONE" />
+    </TableRow>
+
+
+</LinearLayout>

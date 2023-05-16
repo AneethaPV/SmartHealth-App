@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddReminder"
+    android:orientation="vertical">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_height="90px"
+            android:layout_width="300px"
+            android:id="@+id/text"
+            android:text="Medicine"
+            android:textSize="50px"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="700px"
+            android:layout_height="150px"
+            android:ems="10"
+            android:hint="Medicine Name"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_height="90px"
+            android:layout_width="300px"
+            android:id="@+id/text1"
+            android:text="Start date"
+            android:textSize="50px"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_height="90px"
+            android:layout_width="300px"
+            android:id="@+id/text3"
+            android:text="End date"
+            android:textSize="50px"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center">-->
+
+<!--        <TextView-->
+<!--            android:layout_height="90px"-->
+<!--            android:layout_width="300px"-->
+<!--            android:id="@+id/text4"-->
+<!--            android:text="No of doses"-->
+<!--            android:textSize="50px"/>-->
+
+
+<!--        <EditText-->
+<!--            android:id="@+id/editText4"-->
+<!--            android:layout_width="700px"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:ems="10"-->
+<!--            android:inputType="textPersonName" />-->
+<!--    </TableRow>-->
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:text="ADD DOSE" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </TableRow>
+
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+<!--        <TextView-->
+<!--            android:layout_height="90px"-->
+<!--            android:layout_width="300px"-->
+<!--            android:id="@+id/text5"-->
+<!--            android:text="Dose 1"-->
+<!--            android:textSize="50px"/>-->
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="300px"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter dose"
+            android:inputType="textPersonName" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+" />
+
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:text="FINISH" />
+    </TableRow>
+
+</LinearLayout>

@@ -1,0 +1,238 @@
+ <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center">
+
+         <TextView
+             android:id="@+id/textView"
+             android:text="Dob"
+             android:layout_marginTop="5dp"
+             android:layout_marginLeft="20dp"
+             android:textSize="20dp"
+             android:layout_width="150dp"
+             android:layout_height="match_parent" />
+
+         <EditText
+             android:id="@+id/dob"
+             android:layout_width="600px"
+             android:layout_marginRight="20dp"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:inputType="textPersonName" />
+     </TableRow>
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center">
+
+         <TextView
+             android:id="@+id/textView11"
+             android:text="Height(cm)"
+             android:layout_marginTop="5dp"
+             android:layout_marginLeft="20dp"
+             android:textSize="20dp"
+             android:layout_width="150dp"
+             android:layout_height="match_parent" />
+
+         <EditText
+             android:id="@+id/height"
+             android:layout_width="600px"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:layout_marginRight="20dp"
+             android:maxLength="3"
+             android:inputType="textPersonName" />
+     </TableRow>
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center">
+
+         <TextView
+             android:id="@+id/textView12"
+             android:text="Weight(kg)"
+             android:layout_marginTop="5dp"
+             android:layout_marginLeft="20dp"
+             android:textSize="20dp"
+             android:layout_width="150dp"
+             android:layout_height="match_parent" />
+
+         <EditText
+             android:id="@+id/cweight"
+             android:layout_width="600px"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:maxLength="3"
+             android:layout_marginRight="20dp"
+             android:inputType="textPersonName" />
+     </TableRow>
+
+<!--     <TableRow-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="wrap_content"-->
+<!--         android:gravity="center">-->
+
+<!--         <RadioGroup-->
+<!--             android:layout_marginRight="95dp"-->
+<!--             android:layout_width="wrap_content"-->
+<!--             android:layout_height="wrap_content"-->
+<!--             android:gravity="center"-->
+<!--             android:orientation="horizontal"-->
+<!--             android:id="@+id/radiogroup">-->
+
+<!--             <TextView-->
+<!--                 android:id="@+id/t2"-->
+<!--                 android:layout_width="wrap_content"-->
+<!--                 android:layout_height="wrap_content"-->
+<!--                 android:layout_weight="1"-->
+<!--                 android:text="Heart Disease"-->
+<!--                 android:textSize="20dp" />-->
+
+<!--             <RadioButton-->
+<!--                 android:id="@+id/yes"-->
+<!--                 android:layout_width="match_parent"-->
+<!--                 android:layout_height="wrap_content"-->
+<!--                 android:layout_marginLeft="30dp"-->
+<!--                 android:text="yes" />-->
+
+<!--             <RadioButton-->
+<!--                 android:id="@+id/no"-->
+<!--                 android:layout_width="match_parent"-->
+<!--                 android:layout_height="wrap_content"-->
+<!--                 android:layout_marginLeft="30dp"-->
+<!--                 android:text="no" />-->
+<!--         </RadioGroup>-->
+
+<!--     </TableRow>-->
+
+<!--     <TableRow-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="wrap_content"-->
+<!--         android:gravity="center">-->
+
+<!--         <EditText-->
+<!--             android:id="@+id/gweight"-->
+<!--             android:layout_width="700px"-->
+<!--             android:layout_height="wrap_content"-->
+<!--             android:ems="10"-->
+<!--             android:maxLength="3"-->
+<!--             android:hint="Goal Weight(kg)"-->
+<!--             android:inputType="textPersonName" />-->
+<!--     </TableRow>-->
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center">
+
+         <TextView
+             android:id="@+id/textView1"
+             android:text="Diabetes(mg/dL)"
+             android:layout_marginTop="5dp"
+             android:layout_marginLeft="20dp"
+             android:textSize="20dp"
+             android:layout_width="170dp"
+             android:layout_height="match_parent" />
+
+         <EditText
+             android:id="@+id/diabetes"
+             android:layout_width="600px"
+             android:layout_marginRight="20dp"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:text="0"
+             android:maxLength="3"
+             android:inputType="number" />
+     </TableRow>
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center">
+
+         <TextView
+             android:id="@+id/textView2"
+             android:text="Cholestrol(mg/dL)"
+             android:layout_marginTop="5dp"
+             android:layout_marginLeft="20dp"
+             android:textSize="20dp"
+             android:layout_width="170dp"
+             android:layout_height="match_parent" />
+
+         <EditText
+             android:id="@+id/cholestrol"
+             android:layout_width="600px"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:layout_marginRight="20dp"
+             android:maxLength="3"
+             android:text="0"
+             android:inputType="number" />
+     </TableRow>
+
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center">
+
+         <TextView
+             android:id="@+id/textView3"
+             android:layout_marginTop="5dp"
+             android:text="Pressure(mm/Hg)"
+             android:layout_marginLeft="20dp"
+             android:textSize="20dp"
+             android:layout_width="170dp"
+             android:layout_height="match_parent" />
+
+         <EditText
+             android:id="@+id/pressure"
+             android:layout_width="600px"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:layout_marginRight="20dp"
+             android:maxLength="3"
+             android:text="0"
+             android:inputType="number" />
+     </TableRow>
+
+
+
+
+
+<!--     <TableRow-->
+<!--         android:layout_width="match_parent"-->
+<!--         android:layout_height="wrap_content"-->
+<!--         android:gravity="center">-->
+
+<!--         <Spinner-->
+<!--             android:id="@+id/spinner"-->
+<!--             android:layout_width="750px"-->
+<!--             android:layout_height="wrap_content" />-->
+<!--     </TableRow>-->
+
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center">
+
+
+         <Button
+             android:id="@+id/button1"
+             android:layout_width="700px"
+             android:layout_height="wrap_content"
+             android:text="Done" />
+     </TableRow>
+ </LinearLayout>

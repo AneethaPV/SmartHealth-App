@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditMedicalCondition"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_height="90px"
+            android:layout_width="300px"
+            android:id="@+id/text1"
+            android:text="Diabetes"
+            android:textSize="50px"/>
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="700px"
+            android:layout_height="150px"
+            android:ems="10"
+            android:hint="Diabetes"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_height="90px"
+            android:layout_width="300px"
+            android:id="@+id/text2"
+            android:text="Cholestrol"
+            android:textSize="50px"/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="700px"
+            android:layout_height="150px"
+            android:ems="10"
+            android:hint="Cholestrol"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_height="90px"
+            android:layout_width="300px"
+            android:id="@+id/text3"
+            android:text="Pressure"
+            android:textSize="50px"/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="700px"
+            android:layout_height="150px"
+            android:ems="10"
+            android:hint="Pressure"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:gravity="center">
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:text="Done" />
+    </TableRow>
+
+
+</LinearLayout>

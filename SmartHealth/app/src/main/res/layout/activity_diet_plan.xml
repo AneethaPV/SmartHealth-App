@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DietPlan"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <RadioGroup
+            android:layout_marginRight="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:id="@+id/radiogroup1">
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="200dp"
+                android:layout_marginRight="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Gender"
+                android:textSize="18dp" />
+
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:text="Female" />
+        </RadioGroup>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView"
+            android:text="Age"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:text="Height(cm)"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="3"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:text="Weight(kg)"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/cweight"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="3"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:text="Final Weight(kg)"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+        <EditText
+            android:id="@+id/fweight"
+            android:layout_width="700px"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:maxLength="3"
+            android:inputType="textPersonName" />
+    </TableRow>
+
+<!--    <TableRow-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center">-->
+
+<!--        <RadioGroup-->
+<!--            android:layout_marginRight="95dp"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:gravity="center"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:id="@+id/radiogroup2">-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/t2"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="Heart Disease"-->
+<!--                android:textSize="18dp" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/yes"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:text="yes" />-->
+
+<!--            <RadioButton-->
+<!--                android:id="@+id/no"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:text="no" />-->
+<!--        </RadioGroup>-->
+
+<!--    </TableRow>-->
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button1"
+            android:text="GENERATE"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="match_parent" />
+
+    </TableRow>
+
+</LinearLayout>
